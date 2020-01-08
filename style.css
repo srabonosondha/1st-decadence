@@ -1,0 +1,170 @@
+*{margin:0; padding:0;outline: 0;}
+
+html{margin:0; padding:0;}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@font-face{ font-family:"ASENINE_0"; src:url(../fonts/ASENINE_0.TTF); }
+@font-face{ font-family:"Rabbys-font"; src:url(../fonts/RAGE.TTF); }
+@font-face{ font-family:"arial"; src:url(../fonts/arial.TTF); }
+@font-face{ font-family:"GOTHIC_0"; src:url(../fonts/GOTHIC_0.TTF); }
+
+
+body {
+	background-image:url(../images/decadence.jpg);
+	background-size:100% auto;
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+#header{
+	margin:45px auto;
+	border-top:1px solid #111;
+	border-bottom:1px solid #111;
+	background: rgba(46, 21, 11, 0.24);
+}
+#logo{
+	display:inline-block;
+	margin:5px 15px;
+}
+#logo img{
+	vertical-align: text-bottom;
+}
+#logo p{
+	display:inline-block;
+	color:#FFF;
+	padding:0 5px;
+	font-family:"Rabbys-font";
+	font-size: 20px;
+}
+#nav_menu{
+	display:inline-block;
+	float:right;
+}
+#nav_menu ul{
+	padding: 10px;
+}
+#nav_menu ul li{
+	display:inline-block;
+}
+#nav_menu ul li a{
+	font-family: "Arial";
+	text-decoration:none;
+	font-size: 20px;
+	color:#BB945D;
+	padding-right:30px;
+}
+#slider{
+	margin-bottom: 40px;
+	clear: both;
+}
+
+.carousel-inner{
+	position: relative;
+}
+.carousel-control{
+	display: block;
+	height: 55px;
+	width: 53px;
+	position: absolute;
+	top: calc(50% - 27px);
+}
+.left{
+	background-image: url("../images/decadence_30.png");
+	left: -70px;
+}
+.right{
+	background-image: url("../images/decadence_33.png");
+	right: -70px;
+}
+.item {
+	display: inline-block;
+	width: 31%;
+	margin-left: 1%;
+    margin-right: 1%;
+}
+.item img{
+	width: 100%
+}
+#main_contain {
+	background: rgba(250, 206, 164, 0.25);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	padding: 40px;
+}
+#main_contain h1{
+	font-family:"Rabbys-font";
+	color: #FFFFFF;
+	text-align: center;
+	padding: 20px 0px;
+    font-size: 35px;
+}
+
+.image_box {
+	display: inline-block;
+	width: 31%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.image_box img{
+	width: 100%;
+}
+#text_content p{
+	font-family: "GOTHIC_0";
+	color: #ffffff;
+	padding: 10px 0;
+	font-size: 14px;
+	margin: 1%;
+}
+#content_bottom {
+	margin: 1%;
+}
+#content_bottom img{
+	float: left;
+	padding-right: 10px;
+}
+#content_bottom p{
+	font-family: "GOTHIC_0";
+	color: #ffffff;
+    font-size: 14px;
+}
+#footer{
+	font-family: "GOTHIC_0";
+	padding: 20px 10px;
+	background-color: #241007;
+}
+#footer p{
+	text-align: center;
+	color: #655d5a;
+	font-size: 14px;
+}
+
+.column {
+	float: left;
+  	width: 33%;
+ 	padding: 10px;
+	box-sizing: border-box;
+}
+#footer ul{
+	
+}
+#footer ul li:before{
+	content:" ";
+	background: url("../images/gt_icon.png") no-repeat;
+	color: #ffffff;
+	margin-right: 10px;
+	width: 6px;
+	height: 5px;
+	display: inline-block;
+}
+#footer ul li{
+	display: block;
+}
+#footer ul li a{
+	color: #655d5a;
+	font-size: 12px;
+}
